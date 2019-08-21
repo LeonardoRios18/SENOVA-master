@@ -11,6 +11,7 @@ namespace SENOVA
 
         #endregion
         #region Propiedades
+        public string branch { get; set; }
         public string Name { get; set; }
         public double Code { get; set; }
         public string Area { get; set; }
